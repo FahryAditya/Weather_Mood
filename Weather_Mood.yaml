@@ -1,0 +1,41 @@
+# File: pubspec.yaml
+
+name: weather_mood_app
+description: A detailed weather and mood application using Weatherbit.
+publish_to: 'none' # Remove this line if you intend to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Packages yang diperlukan oleh kode Anda
+  http: ^1.1.0 # Untuk panggilan API (http.get)
+  
+  # Jika Anda menggunakan font kustom (misalnya Inter), Anda harus mendeklarasikannya
+  # Jika Anda ingin menggunakan Google Fonts:
+  # google_fonts: ^6.1.0 
+  
+  # Pastikan Anda menggunakan ikon Material
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# Deklarasi aset jika Anda menggunakan font kustom atau lottie (tidak ada di kode ini, tapi umum)
+flutter:
+  uses-material-design: true
+
+  # Contoh deklarasi font jika menggunakan font Inter
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: assets/fonts/Inter-Regular.ttf
+  #       - asset: assets/fonts/Inter-Bold.ttf
+  #         weight: 700
